@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* ===============================
+Top Page
+=============================== */
+/* start container-practiced */
+
+.first-cover-container {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 100px 30px 60px 30px;
+}
+.cover-container {
+  max-width: 996px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.nursing-cover-container {
+  max-width: 996px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 20px 84px 20px;
+}
+.first-inner-container {
+  max-width: 924px;
+  width: 100%;
+  padding: 50px 20px 0px 44px;
+}
+.title {
+  font-family: "Noto Sans JP";
+  font-size: 24px;
+  font-weight: 300;
+  color: #000;
+  position: relative;
+  padding-left: 46px;
+  font-weight: 500;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 40px;
+  height: 3px;
+  background-color: #97c5a1;
+}
+.title-cover-flex {
+  display: flex;
+}
+.philosophy {
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+  color: #97c5a1;
+  position: relative;
+  padding-left: 32px;
+  font-weight: 600;
+}
+.philosophy::before {
+  content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #97c5a1;
+  border-radius: 2px;
+  position: absolute;
+  left: 0px;
+}
+.philo {
+  padding-bottom: 47px;
+}
+.philo-content {
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+  line-height: 1.6;
+}
+.cover-box {
+  padding-top: 80px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 20px;
+  width: 100%;
+}
+.box {
+  background-color: #f7f9f1;
+  border-radius: 16px;
+  max-width: 420px;
+  width: 100%;
+  padding: 50px 30px;
+  position: relative;
+  line-height: 1.7;
+  font-weight: 590;
+}
+.box::after {
+  position: absolute;
+  top: -55px;
+  right: 15px;
+  font-size: 48px;
+  color: #a4c6a0;
+  font-weight: bold;
+}
+.box:nth-child(1)::after {
+  content: "01";
+  font-size: 70px;
+}
+
+.box:nth-child(2)::after {
+  content: "02";
+  font-size: 70px;
+}
+
+.box:nth-child(3)::after {
+  content: "03";
+  font-size: 70px;
+}
+
+.box:nth-child(4)::after {
+  content: "04";
+  font-size: 70px;
+}
+
+.second-cover-container {
+  background-color: #ddf0ef;
+  margin-top: 31px;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.second-inner-container {
+  max-width: 905px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 20px 0px 25px;
+}
+.schedule {
+  padding: 40px;
+}
+.nursing-work-content {
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.schedule-container {
+  max-width: 860px;
+  height: 368px;
+  width: 100%;
+  border-radius: 16px;
+  background: #ffffff;
+}
+.month-work-schedule {
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: #97c5a1;
+  font-weight: 600;
+}
+.early-mid {
+  display: flex;
+  padding: 30px 30px 0px 30px;
+  border-bottom: 2px dashed #80bf8d;
+}
+.early {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  border-right: 1px dashed #80bf8d;
+  justify-content: center;
+  align-items: center;
+  max-width: 366px;
+  width: 100%;
+  padding-bottom: 23px;
+}
+.mid-day {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 366px;
+  width: 100%;
+  padding-bottom: 23px;
+  position: relative;
+}
+.early-shift {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  background-color: #ffe1bf;
+  border-radius: 100vmax;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.mid-day-shift {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  background-color: #ddf0ef;
+  border-radius: 100vmax;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.early-time {
+  font-family: "Futura PT";
+  font-size: 38px;
+  font-weight: 500;
+}
+.mid-day-time {
+  font-family: "Futura PT";
+  font-size: 38px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 40px;
+}
+.mid-day-time::before {
+  content: "(早番)";
+  font-size: 14px;
+  position: absolute;
+  bottom: 9%;
+  left: 0px;
+  font-weight: 600;
+}
+.third-cover-container {
+  background: #eaf0dd;
+  padding: 137px 30px 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-inner-container {
+  max-width: 860px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.data {
+  font-family: "Futura PT";
+  font-size: 16px;
+  color: #7fbf8d;
+  margin-bottom: 12px;
+}
+.nursing-department {
+  font-family: "Noto Sans JP";
+  font-size: 30px;
+  margin-bottom: 51px;
+}
+.introductory-text {
+  max-width: 860px;
+  height: 69px;
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  line-height: 1.5;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 420px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box4 box5";
+  gap: 15px;
+  justify-content: center;
+  padding-top: 50px;
+}
+.gird-inner-data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: #000;
+  line-height: 1.2;
+}
+.data-box {
+  background-color: #ffffff;
+  color: #000;
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+  grid-area: box1;
+  width: 200px;
+  height: 200px;
+}
+.box2 {
+  grid-area: box2;
+  width: 200px;
+  height: 200px;
+}
+.box3 {
+  grid-area: box3;
+  width: 420px;
+  height: 200px;
+}
+.box4 {
+  grid-area: box4;
+  width: 420px;
+  height: 200px;
+}
+.box5 {
+  grid-area: box5;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 874px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "box3"
+      "box2"
+      "box1"
+      "box5"
+      "box4";
+  }
+  .data-box {
+    width: 100%;
+    height: 150px;
+  }
+  .third-cover-container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+  .philosophy {
+    font-size: 18px;
+  }
+  .philo-content {
+    font-size: 18px;
+  }
+  .box::after {
+    font-size: 46px;
+    top: -47px;
+  }
+  .box:nth-child(1)::after {
+    font-size: 50px;
+  }
+
+  .box:nth-child(2)::after {
+    font-size: 50px;
+  }
+
+  .box:nth-child(3)::after {
+    font-size: 50px;
+  }
+
+  .box:nth-child(4)::after {
+    font-size: 50px;
+  }
+  .box-container {
+    grid-template-columns: repeat(1, 1fr);
+  
+  }
+  .first-cover-container {
+    padding: 50px 20px;
+  }
+  .first-inner-container {
+    padding: 30px 10px 0px 40px;
+  }
+  .second-inner-container {
+    padding: 30px 20px 0px 35px;
+  }
+  .philo {
+    padding-bottom: 30px;
+  }
+  .cover-box {
+    padding-top: 50px;
+  }
+
+  .box {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .title::before {
+    width: 30px;
+  }
+  .cover-container {
+    padding: 0px;
+  }
+  .title {
+    padding-left: 36px;
+  }
+  .box-container {
+    gap: 40px;
+  }
+  .schedule {
+    padding: 20px;
+  }
+  .early-shift {
+    width: 100px;
+  }
+  .mid-day-shift {
+    width: 100px;
+  }
+  .early-time {
+    font-size: 17px;
+  }
+  .mid-day-time {
+    font-size: 17px;
+    padding-left: 35px;
+  }
+  .early-mid {
+    padding: 30px 20px 20px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: unset;
+  }
+  .early {
+    border: unset;
+    border-bottom: 2px dashed #80bf8d;
+  }
+  .month-work-schedule {
+    font-size: 14px;
+  }
+  .mid-day-time::before {
+    left: 0px;
+    bottom: 5%;
+    font-size: 12px;
+  }
+  .mid-day {
+    padding-top: 30px;
+  }
+  .third-cover-container {
+    padding: 50px 20px 20px 20px;
+  }
+  .nursing-department {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+  .introductory-text {
+    font-size: 12px;
+  }
+  .data-box {
+    font-size: 14px;
+  }
+  .nursing-cover-container {
+    padding: 60px 20px 44px 20px;
+  }
+}
