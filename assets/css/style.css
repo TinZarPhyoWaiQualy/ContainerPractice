@@ -94,7 +94,7 @@ Top Page
 }
 .box::after {
   position: absolute;
-  top: -55px;
+  top: -62px;
   right: 15px;
   font-size: 48px;
   color: #a4c6a0;
@@ -104,22 +104,18 @@ Top Page
   content: "01";
   font-size: 70px;
 }
-
 .box:nth-child(2)::after {
   content: "02";
   font-size: 70px;
 }
-
 .box:nth-child(3)::after {
   content: "03";
   font-size: 70px;
 }
-
 .box:nth-child(4)::after {
   content: "04";
   font-size: 70px;
 }
-
 .second-cover-container {
   background-color: #ddf0ef;
   margin-top: 31px;
@@ -286,7 +282,6 @@ Top Page
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .box1 {
   grid-area: box1;
   width: 200px;
@@ -312,6 +307,9 @@ Top Page
   width: 200px;
   height: 200px;
 }
+/* end container practiced */
+
+/* start container practiced for sp */
 @media screen and (max-width: 874px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -343,7 +341,7 @@ Top Page
   }
   .box::after {
     font-size: 46px;
-    top: -47px;
+    top: -46px;
   }
   .box:nth-child(1)::after {
     font-size: 50px;
@@ -362,7 +360,6 @@ Top Page
   }
   .box-container {
     grid-template-columns: repeat(1, 1fr);
-  
   }
   .first-cover-container {
     padding: 50px 20px;
@@ -379,7 +376,6 @@ Top Page
   .cover-box {
     padding-top: 50px;
   }
-
   .box {
     max-width: 100%;
     padding: 15px;
@@ -451,3 +447,4 @@ Top Page
     padding: 60px 20px 44px 20px;
   }
 }
+/* end container practiced for sp */
