@@ -65,13 +65,17 @@ Top Page
   position: absolute;
   left: 0px;
 }
-.philo {
-  padding-bottom: 47px;
+.first-philo {
+  padding-bottom: 20px;
 }
+.sec-philo {
+  padding-bottom: 46px;
+}
+
 .philo-content {
   font-family: "Noto Sans JP";
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 .cover-box {
   padding-top: 80px;
@@ -83,6 +87,8 @@ Top Page
   width: 100%;
 }
 .box {
+  font-family: "Noto Sans JP";
+  font-size: 14px;
   background-color: #f7f9f1;
   border-radius: 16px;
   max-width: 420px;
@@ -98,7 +104,7 @@ Top Page
   right: 15px;
   font-size: 48px;
   color: #a4c6a0;
-  font-weight: bold;
+  font-weight: 700;
 }
 .box:nth-child(1)::after {
   content: "01";
@@ -118,7 +124,6 @@ Top Page
 }
 .second-cover-container {
   background-color: #ddf0ef;
-  margin-top: 31px;
   width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -130,7 +135,7 @@ Top Page
   padding: 50px 20px 0px 25px;
 }
 .schedule {
-  padding: 40px;
+  padding: 30px 50px 142px 50px;
 }
 .nursing-work-content {
   font-family: "Noto Sans JP";
@@ -139,9 +144,9 @@ Top Page
 }
 .schedule-container {
   max-width: 860px;
-  height: 368px;
+  height: auto;
   width: 100%;
-  border-radius: 16px;
+  border-radius: 30px;
   background: #ffffff;
 }
 .month-work-schedule {
@@ -201,12 +206,12 @@ Top Page
 }
 .early-time {
   font-family: "Futura PT";
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 500;
 }
 .mid-day-time {
   font-family: "Futura PT";
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 500;
   position: relative;
   padding-left: 40px;
@@ -236,12 +241,12 @@ Top Page
   font-family: "Futura PT";
   font-size: 16px;
   color: #7fbf8d;
-  margin-bottom: 12px;
+  margin-bottom: 9px;
 }
 .nursing-department {
   font-family: "Noto Sans JP";
   font-size: 30px;
-  margin-bottom: 51px;
+  margin-bottom: 50px;
 }
 .introductory-text {
   max-width: 860px;
@@ -258,7 +263,7 @@ Top Page
   grid-template-areas:
     "box1 box2 box3"
     "box4 box4 box5";
-  gap: 15px;
+  gap: 20px;
   justify-content: center;
   padding-top: 50px;
 }
@@ -329,6 +334,46 @@ Top Page
     max-width: 100%;
   }
 }
+@media screen and (max-width: 834px) {
+  .early-shift {
+    width: 100px;
+  }
+  .mid-day-shift {
+    width: 100px;
+  }
+  .early-time {
+    font-size: 17px;
+  }
+  .mid-day-time {
+    font-size: 17px;
+    padding-left: 35px;
+  }
+  .early-mid {
+    padding: 30px 20px 20px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: unset;
+  }
+  .early {
+    border: unset;
+    border-bottom: 2px dashed #80bf8d;
+  }
+  .month-work-schedule {
+    font-size: 14px;
+  }
+  .mid-day-time::before {
+    left: 0px;
+    bottom: 5%;
+    font-size: 12px;
+  }
+  .mid-day {
+    padding-top: 30px;
+  }
+  .schedule {
+    padding: 30px 50px 30px 50px;
+  }
+}
 @media screen and (max-width: 768px) {
   .title {
     font-size: 22px;
@@ -342,6 +387,7 @@ Top Page
   .box::after {
     font-size: 46px;
     top: -46px;
+    font-weight: 400;
   }
   .box:nth-child(1)::after {
     font-size: 50px;
@@ -393,9 +439,10 @@ Top Page
     gap: 40px;
   }
   .schedule {
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
   }
-  .early-shift {
+
+  /* .early-shift {
     width: 100px;
   }
   .mid-day-shift {
@@ -429,7 +476,7 @@ Top Page
   }
   .mid-day {
     padding-top: 30px;
-  }
+  } */
   .third-cover-container {
     padding: 50px 20px 20px 20px;
   }
