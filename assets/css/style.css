@@ -86,6 +86,7 @@ Top Page
   grid-template-columns: repeat(2, 1fr);
   gap: 60px 20px;
   width: 100%;
+  counter-reset: num;
 }
 .box {
   font-family: "Noto Sans JP";
@@ -98,6 +99,7 @@ Top Page
   position: relative;
   line-height: 1.7;
   font-weight: 500;
+  counter-increment: num;
 }
 .box::after {
   position: absolute;
@@ -108,20 +110,28 @@ Top Page
   font-family: "futura-pt", sans-serif;
   font-weight: 300;
 }
-.box:nth-child(1)::after {
+/* .box:nth-child(1)::after {
   content: "01";
+  content:"0" counter(num);
   font-size: 70px;
 }
 .box:nth-child(2)::after {
   content: "02";
+  content:"0" counter(num);
   font-size: 70px;
 }
 .box:nth-child(3)::after {
   content: "03";
+  content:"0" counter(num);
   font-size: 70px;
 }
 .box:nth-child(4)::after {
   content: "04";
+  content:"0" counter(num);
+  font-size: 70px;
+} */
+.box:nth-child(n)::after{
+  content:"0" counter(num);
   font-size: 70px;
 }
 .second-cover-container {
