@@ -384,6 +384,9 @@ Top Page
   .philo-content {
     font-size: 18px;
   }
+  .sec-philo {
+    padding-bottom: 36px;
+  }
   .box::after {
     font-size: 46px;
     top: -46px;
