@@ -33,7 +33,7 @@ Top Page
   color: #000;
   position: relative;
   padding-left: 46px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .title::before {
   content: "";
@@ -76,6 +76,7 @@ Top Page
   font-family: "Noto Sans JP";
   font-size: 20px;
   line-height: 1.8;
+  font-weight: 500;
 }
 .cover-box {
   padding-top: 80px;
@@ -96,7 +97,7 @@ Top Page
   padding: 50px 30px;
   position: relative;
   line-height: 1.7;
-  font-weight: 590;
+  font-weight: 500;
 }
 .box::after {
   position: absolute;
@@ -104,7 +105,8 @@ Top Page
   right: 15px;
   font-size: 48px;
   color: #a4c6a0;
-  font-weight: 700;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 300;
 }
 .box:nth-child(1)::after {
   content: "01";
@@ -141,6 +143,7 @@ Top Page
   font-family: "Noto Sans JP";
   font-size: 14px;
   padding-bottom: 30px;
+  font-weight: 500;
 }
 .schedule-container {
   max-width: 860px;
@@ -153,7 +156,7 @@ Top Page
   font-family: "Noto Sans JP";
   font-size: 16px;
   color: #97c5a1;
-  font-weight: 600;
+  font-weight: 700;
 }
 .early-mid {
   display: flex;
@@ -191,6 +194,8 @@ Top Page
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  font-family: "Noto Sans JP";
+  font-size: 20px;
   font-weight: 600;
 }
 .mid-day-shift {
@@ -202,6 +207,8 @@ Top Page
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  font-family: "Noto Sans JP";
+  font-size: 20px;
   font-weight: 600;
 }
 .early-time {
@@ -210,11 +217,11 @@ Top Page
   font-weight: 500;
 }
 .mid-day-time {
-  font-family: "Futura PT";
+  font-family:"futura-pt", sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
-  padding-left: 40px;
+  padding-left: 46px;
 }
 .mid-day-time::before {
   content: "(早番)";
@@ -222,11 +229,12 @@ Top Page
   position: absolute;
   bottom: 9%;
   left: 0px;
+  font-family: "Noto Sans JP";
   font-weight: 600;
 }
 .third-cover-container {
   background: #eaf0dd;
-  padding: 137px 30px 30px 30px;
+  padding: 137px 30px 291px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,14 +246,16 @@ Top Page
   text-align: center;
 }
 .data {
-  font-family: "Futura PT";
+  font-family:  "futura-pt", sans-serif;
   font-size: 16px;
+  font-weight: 500;
   color: #7fbf8d;
   margin-bottom: 9px;
 }
 .nursing-department {
   font-family: "Noto Sans JP";
   font-size: 30px;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 .introductory-text {
@@ -254,6 +264,7 @@ Top Page
   text-align: center;
   font-family: "Noto Sans JP";
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.5;
 }
 .grid-container {
@@ -281,11 +292,11 @@ Top Page
   color: #000;
   font-family: "Noto Sans JP";
   font-size: 16px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .box1 {
   grid-area: box1;
@@ -334,19 +345,19 @@ Top Page
     max-width: 100%;
   }
 }
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 853px) {
   .early-shift {
-    width: 100px;
+    width: 120px;
   }
   .mid-day-shift {
-    width: 100px;
+    width: 120px;
   }
   .early-time {
     font-size: 17px;
   }
   .mid-day-time {
     font-size: 17px;
-    padding-left: 35px;
+    padding-left: 40px;
   }
   .early-mid {
     padding: 30px 20px 20px 20px;
