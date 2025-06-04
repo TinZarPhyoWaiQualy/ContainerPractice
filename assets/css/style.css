@@ -441,42 +441,6 @@ Top Page
   .schedule {
     padding: 20px 10px 20px 10px;
   }
-
-  /* .early-shift {
-    width: 100px;
-  }
-  .mid-day-shift {
-    width: 100px;
-  }
-  .early-time {
-    font-size: 17px;
-  }
-  .mid-day-time {
-    font-size: 17px;
-    padding-left: 35px;
-  }
-  .early-mid {
-    padding: 30px 20px 20px 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: unset;
-  }
-  .early {
-    border: unset;
-    border-bottom: 2px dashed #80bf8d;
-  }
-  .month-work-schedule {
-    font-size: 14px;
-  }
-  .mid-day-time::before {
-    left: 0px;
-    bottom: 5%;
-    font-size: 12px;
-  }
-  .mid-day {
-    padding-top: 30px;
-  } */
   .third-cover-container {
     padding: 50px 20px 20px 20px;
   }
