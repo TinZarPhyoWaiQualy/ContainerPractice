@@ -217,7 +217,7 @@ Top Page
   font-weight: 500;
 }
 .mid-day-time {
-  font-family:"futura-pt", sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-size: 40px;
   font-weight: 600;
   position: relative;
@@ -246,7 +246,7 @@ Top Page
   text-align: center;
 }
 .data {
-  font-family:  "futura-pt", sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #7fbf8d;
@@ -437,8 +437,9 @@ Top Page
     padding-top: 50px;
   }
   .box {
-    max-width: 100%;
-    padding: 15px;
+    padding: 25px;
+    max-width: 450px;
+    margin: 0 auto;
   }
   .title::before {
     width: 30px;
